@@ -37,6 +37,5 @@
 <Hero />
 <About />
 <Music />
-<Videos />
 
 <div class="h-screen" />
