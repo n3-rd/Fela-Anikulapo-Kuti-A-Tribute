@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* remove scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+/* remove scrollbar */
+body::-webkit-scrollbar {
+    display: none;
+}
+body{
+    overflow-x: hidden;
+    color: #fff;
+    background-color: #000;
+    font-family: 'Clash Display', sans-serif;
+    cursor: none;
+}
+.cursor-pointer:hover{
+    cursor:none;
+    color: #ad1c1c;
+}
+.large{
+    font-family: 'Clash Display', sans-serif;
+}
+@keyframes -global-grayscale {
+    0% {
+        filter: grayscale(0);
+    }
+    100% {
+        filter: grayscale(1);
+    }
+}
