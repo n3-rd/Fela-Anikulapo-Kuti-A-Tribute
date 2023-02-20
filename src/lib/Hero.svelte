@@ -1,5 +1,16 @@
 <script>
 	import ArrowDiagonal from './ArrowDiagonal.svelte';
+	import luge from '@waaark/luge';
+	import { onDestroy, onMount } from 'svelte';
+
+	onMount(() => {
+		const sepiaSection = document.querySelector('.sepia-section');
+		luge.scrollobserver.add(sepiaSection);
+
+		sepiaSection.addEventListener('scrollprogress', (e) => {
+			e.target.style.filter = `grayscale(${e.target.scrollProgress})`;
+		});
+	});
 </script>
 
 <div class="hero h-screen w-screen flex flex-col justify-center items-end bg-black">
