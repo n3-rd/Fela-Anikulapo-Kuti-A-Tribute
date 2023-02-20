@@ -4,7 +4,6 @@
 	import { onMount } from 'svelte';
 	import About from '../lib/About.svelte';
 	import Cursor from '../lib/Cursor.svelte';
-	import Videos from '../lib/Videos.svelte';
 	import Music from '../lib/Music.svelte';
 
 	const smoothScroll = () => {
@@ -38,4 +37,8 @@
 <About />
 <Music />
 
-<div class="h-screen" />
+<div class="h-screen w-screen flex justify-center items-center flex-col">
+	<div class="text-[18vw] font-black uppercase p-0">Fela</div>
+	<div class="text-[9vw] font-bold uppercase p-0">ANIKULAPO-KUTI</div>
+	<div class="text-[3vw] font-semibold uppercase p-0">(1938-1997)</div>
+</div>

@@ -15,6 +15,7 @@ body{
     background-color: #000;
     font-family: 'Clash Display', sans-serif;
     cursor: none;
+    scroll-behavior: smooth;
 }
 .cursor-pointer:hover{
     cursor:none;

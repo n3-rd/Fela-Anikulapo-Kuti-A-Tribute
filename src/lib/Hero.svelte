@@ -28,9 +28,8 @@
 		<div
 			class="w-[30vw] h-full flex flex-col justify-center items-center links font-bold uppercase text-white text-[3rem]"
 		>
-			<div class="flex items-center cursor-pointer ">About <ArrowDiagonal /></div>
-			<div class="flex items-center cursor-pointer ">Works <ArrowDiagonal /></div>
-			<div class="flex items-center cursor-pointer ">Awards <ArrowDiagonal /></div>
+			<a href="#about" class="flex items-center cursor-pointer">About <ArrowDiagonal /></a>
+			<a href="#music" class="flex items-center cursor-pointer ">Music <ArrowDiagonal /></a>
 		</div>
 		<!-- <Saos animation={'grayscale 4s linear '}> -->
 		<div class="hero-images w-[70vw] h-full flex justify-center items-center sepia-section ">

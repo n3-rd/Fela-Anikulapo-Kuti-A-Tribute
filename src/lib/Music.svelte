@@ -42,7 +42,7 @@
 </script>
 
 <div class="h3 font-black text-[4rem] uppercase mt-24 py-4">Top Music by Fela</div>
-<div class="music w-screen h-fit flex">
+<div class="music w-screen h-fit flex" id="music">
 	<div class="w-2/3">
 		{#each music as song}
 			<a href={song.external_urls.spotify} target="_blank" rel="noreferrer">

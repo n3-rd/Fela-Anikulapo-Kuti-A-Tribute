@@ -21,7 +21,7 @@
 	});
 </script>
 
-<div class="h-fit w-screen flex py-8">
+<div class="h-fit w-screen flex py-8" id="about">
 	<!-- create two divs side by side of equal size -->
 	<div class="w-1/3">
 		<div class="fela-sticky">
